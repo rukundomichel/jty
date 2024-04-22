@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUKUNDO MICHEL</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            background-color: darkgray;
+        }
+
+        header {
+            background-color: antiquewhite;
+            height: 80px;
+            width: 100%;
+        }
+
+        h1 {
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 15px; /* Adjusted padding */
+        }
+
+        nav {
+            text-align: center;
+            background-color: darkgray;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px; /* Adjusted margin */
+        }
+
+        p {
+            text-align: center;
+        }
+
+        details {
+            text-align: left;
+        }
+
+        footer {
+            background-color: antiquewhite;
+            padding: 10px; /* Added padding for spacing */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .icons-right {
+            float: right;
+        }
+
+        footer p {
+            margin: 0; /* Remove default margin */
+            text-align: center; /* Center the text within the right container */
+        }
+
+        footer i {
+            margin-right: 5px; /* Adjusted margin */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>REGISTRATION</h1>
+    </header>
+
+    <nav>
+        <a href="">HOME</a>
+        <a href="#">NEWS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+    </nav>
+    <p>WELCOME TO MY WEBSITE</p>
+    <details align="center">
+        
+        <h2 align="center">Boarding request Form</h2>
+        <form align="center">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required><br>
+    
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+    
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+    
+            <label for="age">Age:</label>
+            <input type="date" id="age" name="age" required><br>
+    
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+    
+            <label for="class">Class:</label>
+            <input type="text" id="class" name="class" required><br>
+    
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+    
+            <button type="submit">Upload file</button>
+        </form>
+        </details>
+    <footer> 
+        <div class="footer-left">
+             <p>&copy; 2023-2024</p>
+        </div> 
+        <div class="icons-right">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i></a> 
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i></a> 
+        </div> 
+    </footer>
+</body>
+</html>
